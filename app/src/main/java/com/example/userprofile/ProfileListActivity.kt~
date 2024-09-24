@@ -39,7 +39,7 @@ class ProfileListActivity : AppCompatActivity() {
 
         }
         userProfileAdapter.setOnEditClickListener {
-            val intent = Intent(this, UpdateProfileActivity::class.java)
+            val intent = Intent(this, SingelProfileActivity::class.java)
             intent.putExtra("userProfile", it)
             startActivity(intent)
         }

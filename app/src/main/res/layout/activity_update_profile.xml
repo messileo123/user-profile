@@ -13,7 +13,7 @@
         android:layout_height="match_parent"
         android:padding="10dp">
         <EditText
-            android:id="@+id/profileName"
+            android:id="@+id/profileNameET"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_marginStart="10dp"
@@ -30,9 +30,9 @@
             android:layout_marginTop="20dp"
             android:layout_height="wrap_content"
             android:hint="Enter Profile Email"
-            app:layout_constraintEnd_toEndOf="@+id/profileName"
-            app:layout_constraintStart_toStartOf="@+id/profileName"
-            app:layout_constraintTop_toBottomOf="@+id/profileName" />
+            app:layout_constraintEnd_toEndOf="@+id/profileNameET"
+            app:layout_constraintStart_toStartOf="@+id/profileNameET"
+            app:layout_constraintTop_toBottomOf="@+id/profileNameET" />
         <EditText
             android:id="@+id/profileDOBEt"
             android:layout_width="0dp"

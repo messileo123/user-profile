@@ -25,16 +25,18 @@ class SingelProfileActivity : AppCompatActivity() {
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
+        setContentView(R.layout.activity_singel_profile)
 
         profileViewModel = ViewModelProvider(this).get(userProfileViewModel::class.java)
-
-        setContentView(R.layout.activity_singel_profile)
         userprofile = intent.getSerializableExtra("userProfile") as userProfile
+
         nameTxt = findViewById(R.id.nameLabelTextView)
         emailTxt = findViewById(R.id.emailLabelTextView)
         dobTxt = findViewById(R.id.dobLabelTextView)
         districtTxt = findViewById(R.id.districtLabelTextView)
         mobileTxt = findViewById(R.id.mobileLabelTextView)
+
+
 
 
         populatedField()

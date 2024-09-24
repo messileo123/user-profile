@@ -26,7 +26,7 @@ class UpdateProfileActivity : AppCompatActivity() {
         setContentView(R.layout.activity_update_profile)
 
         profileViewModel = ViewModelProvider(this).get(userProfileViewModel::class.java)
-        userProfile = intent.getSerializableExtra("userProfile") as userProfile
+        userProfile = intent.getSerializableExtra("USER_PROFILE") as userProfile
         nameEditText = findViewById(R.id.profileNameET)
         emailEditText = findViewById(R.id.profileEmailEt)
         dobEditText = findViewById(R.id.profileDOBEt)
