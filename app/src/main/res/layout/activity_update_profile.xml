@@ -2,27 +2,23 @@
 <androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
-    android:id="@+id/main"
-    app:cardMaxElevation="15dp"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
     app:cardElevation="15dp"
     app:cardCornerRadius="15dp"
     android:layout_margin="30dp"
-    android:layout_width="match_parent"
-    android:layout_height="match_parent"
-    tools:context=".AddProfileActivity">
+    tools:context=".UpdateProfileActivity">
     <androidx.constraintlayout.widget.ConstraintLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-      android:background="#58072352"
         android:padding="10dp">
         <EditText
-            android:id="@+id/profileNameEt"
+            android:id="@+id/profileName"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_marginStart="10dp"
             android:layout_marginTop="144dp"
             android:layout_marginEnd="10dp"
-            android:textColor="@color/black"
             android:hint="Enter Profile Name"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintHorizontal_bias="0.0"
@@ -34,17 +30,15 @@
             android:layout_marginTop="20dp"
             android:layout_height="wrap_content"
             android:hint="Enter Profile Email"
-            android:textColor="@color/black"
-            app:layout_constraintEnd_toEndOf="@+id/profileNameEt"
-            app:layout_constraintStart_toStartOf="@+id/profileNameEt"
-            app:layout_constraintTop_toBottomOf="@+id/profileNameEt" />
+            app:layout_constraintEnd_toEndOf="@+id/profileName"
+            app:layout_constraintStart_toStartOf="@+id/profileName"
+            app:layout_constraintTop_toBottomOf="@+id/profileName" />
         <EditText
             android:id="@+id/profileDOBEt"
             android:layout_width="0dp"
             android:layout_marginTop="20dp"
             android:layout_height="wrap_content"
             android:hint="Enter Profile Date of Birth"
-            android:textColor="@color/black"
             app:layout_constraintEnd_toEndOf="@+id/profileEmailEt"
             app:layout_constraintStart_toStartOf="@+id/profileEmailEt"
             app:layout_constraintTop_toBottomOf="@+id/profileEmailEt" />
@@ -54,7 +48,6 @@
             android:layout_marginTop="20dp"
             android:layout_height="wrap_content"
             android:hint="Enter Profile District"
-            android:textColor="@color/black"
             app:layout_constraintEnd_toEndOf="@+id/profileDOBEt"
             app:layout_constraintStart_toStartOf="@+id/profileDOBEt"
             app:layout_constraintTop_toBottomOf="@+id/profileDOBEt" />
@@ -64,23 +57,18 @@
             android:layout_marginTop="20dp"
             android:layout_height="wrap_content"
             android:hint="Enter Profile Mobile"
-            android:textColor="@color/black"
             app:layout_constraintEnd_toEndOf="@+id/profileDistrictEt"
             app:layout_constraintStart_toStartOf="@+id/profileDistrictEt"
             app:layout_constraintTop_toBottomOf="@+id/profileDistrictEt" />
         <Button
-            android:id="@+id/addBtn"
+            android:id="@+id/updateBtn"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginTop="52dp"
-            android:text="ADD PROFILE"
-            android:textColor="@color/black"
-            android:backgroundTint="#142F5B"
+            android:text="UPDATE PROFILE"
             app:layout_constraintEnd_toEndOf="@+id/profilemobileEt"
             app:layout_constraintHorizontal_bias="0.497"
             app:layout_constraintStart_toStartOf="@+id/profilemobileEt"
             app:layout_constraintTop_toBottomOf="@+id/profilemobileEt" />
     </androidx.constraintlayout.widget.ConstraintLayout>
-
-
 </androidx.cardview.widget.CardView>

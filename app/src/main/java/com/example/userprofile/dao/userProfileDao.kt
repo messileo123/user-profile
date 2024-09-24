@@ -18,6 +18,6 @@ interface userProfileDao {
     @Delete
     suspend fun delete( userProfile: userProfile)
      @Query("SELECT * FROM userProfile")
-      suspend fun getAllProfiles(): LiveData<List<userProfile>>
+     fun getAllProfiles(): LiveData<List<userProfile>>
 
 }

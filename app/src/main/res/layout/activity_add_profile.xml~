@@ -22,7 +22,7 @@
             android:layout_marginStart="10dp"
             android:layout_marginTop="144dp"
             android:layout_marginEnd="10dp"
-            android:textColor="@color/black"
+            android:textColor="@color/white"
             android:hint="Enter Profile Name"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintHorizontal_bias="0.0"
@@ -34,7 +34,7 @@
             android:layout_marginTop="20dp"
             android:layout_height="wrap_content"
             android:hint="Enter Profile Email"
-            android:textColor="@color/black"
+            android:textColor="@color/white"
             app:layout_constraintEnd_toEndOf="@+id/profileNameEt"
             app:layout_constraintStart_toStartOf="@+id/profileNameEt"
             app:layout_constraintTop_toBottomOf="@+id/profileNameEt" />
@@ -44,7 +44,7 @@
             android:layout_marginTop="20dp"
             android:layout_height="wrap_content"
             android:hint="Enter Profile Date of Birth"
-            android:textColor="@color/black"
+            android:textColor="@color/white"
             app:layout_constraintEnd_toEndOf="@+id/profileEmailEt"
             app:layout_constraintStart_toStartOf="@+id/profileEmailEt"
             app:layout_constraintTop_toBottomOf="@+id/profileEmailEt" />
@@ -54,7 +54,7 @@
             android:layout_marginTop="20dp"
             android:layout_height="wrap_content"
             android:hint="Enter Profile District"
-            android:textColor="@color/black"
+            android:textColor="@color/white"
             app:layout_constraintEnd_toEndOf="@+id/profileDOBEt"
             app:layout_constraintStart_toStartOf="@+id/profileDOBEt"
             app:layout_constraintTop_toBottomOf="@+id/profileDOBEt" />
@@ -64,7 +64,7 @@
             android:layout_marginTop="20dp"
             android:layout_height="wrap_content"
             android:hint="Enter Profile Mobile"
-            android:textColor="@color/black"
+            android:textColor="@color/white"
             app:layout_constraintEnd_toEndOf="@+id/profileDistrictEt"
             app:layout_constraintStart_toStartOf="@+id/profileDistrictEt"
             app:layout_constraintTop_toBottomOf="@+id/profileDistrictEt" />
@@ -74,7 +74,7 @@
             android:layout_height="wrap_content"
             android:layout_marginTop="52dp"
             android:text="ADD PROFILE"
-            android:textColor="@color/black"
+            android:textColor="@color/white"
             android:backgroundTint="#142F5B"
             app:layout_constraintEnd_toEndOf="@+id/profilemobileEt"
             app:layout_constraintHorizontal_bias="0.497"

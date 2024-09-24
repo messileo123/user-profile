@@ -47,6 +47,5 @@ class SingelProfileActivity : AppCompatActivity() {
         districtTxt.text = userprofile.district
         mobileTxt.text = userprofile.mobile
 
-
     }
 }
